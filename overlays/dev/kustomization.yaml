@@ -5,6 +5,7 @@ namespace: golang-api-crud-dev
 resources:
   - ../../base
   - namespace.yml
+  - service-external.yml
 
 patches:
   - target:

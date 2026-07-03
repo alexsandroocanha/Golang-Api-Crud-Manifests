@@ -5,3 +5,4 @@ namespace: golang-api-crud-prod
 resources:
   - ../../base
   - namespace.yml
+  - service-external.yml
