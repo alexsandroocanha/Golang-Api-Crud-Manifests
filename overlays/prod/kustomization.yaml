@@ -3,6 +3,9 @@ kind: Kustomization
 namespace: golang-api-crud-prod
 
 resources:
-  - ../../base
-  - namespace.yml
-  - service-external.yml
+- ../../base
+- namespace.yml
+- service-external.yml
+images:
+- name: ghcr.io/alexsandroocanha/golang-api-crud
+  newTag: v0.0.4
