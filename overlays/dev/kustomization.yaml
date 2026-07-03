@@ -17,4 +17,4 @@ patches:
     name: golang-api-crud
 images:
 - name: ghcr.io/alexsandroocanha/golang-api-crud
-  newTag: bb6441d5c4cba7565b7c6fbe3fa1c201f29d4d8e
+  newTag: ee6ad90993f69b4095c853f8b34db12f00679a52
