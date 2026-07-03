@@ -1,0 +1,17 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: golang-api-crud-dev
+
+resources:
+  - ../../base
+  - namespace.yml
+  - secret.yml
+
+patches:
+  - target:
+      kind: Deployment
+      name: golang-api-crud
+    patch: |-
+      - op: replace
+        path: /spec/replicas
+        value: 1
