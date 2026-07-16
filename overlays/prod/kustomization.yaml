@@ -8,4 +8,4 @@ resources:
 - service-external.yml
 images:
 - name: ghcr.io/alexsandroocanha/golang-api-crud
-  newTag: v0.0.13
+  newTag: v0.0.14
